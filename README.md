@@ -1,5 +1,7 @@
 # Data Science Portfolio
 
+This repository contains my data science portfolio projects.
+
 ### Machine Learning (Python)
 
 * Predicting Credit Card Approvals: TBA
