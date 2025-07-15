@@ -7,7 +7,7 @@ This repository contains my data science portfolio projects for continuous learn
 * [Credit Card Application Prediction](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Projects/Credit%20Card%20Application%20Prediction/Credit%20Card%20Approval.ipynb): Built a classification model to predict credit card application outcomes using logistic regression, k-nearest neighbors (KNN), and random forest, evaluating model performance using key classification metrics.
 
 ### Mini projects
-The following are smaller self-contained projects for me to learn core concepts:
+The following are smaller self-contained projects for learning core concepts:
 * [Predicting loan repayments using decision trees and random forest](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Learning/Decision%20Trees%20and%20Random%20Forests/Decision%20Trees%20and%20Random%20Forests.ipynb): Used tree-based models to predict loan repayment behavior based on borrower features.
 * [Classifying anonymized data with KNN](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Learning/KNN/KNN.ipynb): Used KNN to classify anonymized data into two categories, demonstrating the impact of feature scaling and k-value tuning.
 * [Predicting ad clicks with logistic regression](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Learning/Logistic%20Regression/Logistic%20Regression.ipynb): Modeled ad-click likelihood using logistic regression, exploring how age, time spent online, and other features influence behavior.
