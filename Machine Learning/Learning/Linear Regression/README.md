@@ -1,7 +1,5 @@
 # Linear Regression
 
-## Background
-
 Linear regression is a foundational algorithm used in supervised machine learning (ML) to map input variables to continuous output values using a linear function by minimizing the prediction error. The linear regression model is given by
 
 $$
