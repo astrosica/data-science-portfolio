@@ -3,8 +3,6 @@
 This repository contains my data science portfolio projects for continuous learning.
   
 ## Machine Learning Projects (Python)
-### Major Project
-* [Credit Card Application Prediction](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Projects/Credit%20Card%20Application%20Prediction/Credit%20Card%20Approval.ipynb): Built a classification model to predict credit card application outcomes using logistic regression, k-nearest neighbors (KNN), and random forest, evaluating model performance using key classification metrics.
 
 ### Mini Projects
 * [Predicting loan defaults with random forest](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Learning/Decision%20Trees%20and%20Random%20Forests/Decision%20Trees%20and%20Random%20Forests.ipynb): Built a random forest model to predict loan default likelihood using financial data. Addressed class imbalance (16% default rate) with hyperparameter tuning (optimizing average precision), threshold optimization (optimizing F2-score), and SMOTE resampling.
