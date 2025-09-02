@@ -18,9 +18,9 @@ Both reach zero when a node contains only one class, and features that yield the
 
 For classification tasks, the overall prediction $\hat{y}$ is typically the majority vote across all trees:
 
-$$
-\hat{y} = \mathrm{mode}`\{ T_1(x), T_2(x), \dots, T_n(x) \}`, \quad (3)
-$$
+```math
+\hat{y} = \mathrm{mode}\{ T_1(x), T_2(x), \dots, T_n(x) \}, \quad (3)
+```
 
 where $T_i(x)$ is the prediction of the $i$-th tree, and $n$ is the total number of trees in the forest. For regression tasks, the overall prediction is typically given by the average of their predictions:
 
