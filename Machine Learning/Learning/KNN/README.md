@@ -7,9 +7,7 @@ For classification, the predicted class is typically the majority class among th
 While the KNN model doesn't minimize a loss function as it is non-parametric, it typically uses the Euclidean distance to measure the distance between two features $\mathbf{x}_i$ and $\mathbf{x}_j$ in feature space, defined as
 
 $$
-\begin{align}
-d(\mathbf{x}_i, \mathbf{x}_j) = \sqrt{\sum_{l=1}^{n} (x_i^{(l)} - x_j^{(l)})^2},
-\end{align}
+d(\mathbf{x}_i, \mathbf{x}_j) = \sqrt{\sum_{l=1}^{n} (x_i^{(l)} - x_j^{(l)})^2}, \quad\quad (1)
 $$
 
 {\noindent}where $n$ is the number of features. This metric determines how similar (or different) each point is in feature space, where points closer to each other in feature space are considered to be more similar. Depending on the data, other distance metrics (such as Manhattan distance) may be more appropriate.
