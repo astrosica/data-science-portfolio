@@ -1,19 +1,23 @@
 # Data Science Portfolio
 
-This repository contains my data science portfolio projects for continuous learning.
+This repository contains my data science portfolio projects, implemented primarily in Python.
   
-## Machine Learning Projects (Python)
-### Major Project
-* [Credit Card Application Prediction](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Projects/Credit%20Card%20Application%20Prediction/Credit%20Card%20Approval.ipynb): Built a classification model to predict credit card application outcomes using logistic regression, k-nearest neighbors (KNN), and random forest, evaluating model performance using key classification metrics.
+## Machine Learning (ML) Projects
 
-### Mini Projects
-* [Predicting loan defaults using decision trees and random forest](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Learning/Decision%20Trees%20and%20Random%20Forests/Decision%20Trees%20and%20Random%20Forests.ipynb): Built a random forest model to predict loan default likelihood using financial data. Addressed class imbalance (16% default rate) with hyperparameter tuning (optimizing average precision), threshold optimization (optimizing F2-score), and SMOTE resampling.
-* [Classifying anonymized data with KNN](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Learning/KNN/KNN.ipynb): Built a KNN model to classify anonymized data into two categories, demonstrating the impact of feature scaling and k-value tuning.
-* [Predicting ad clicks with logistic regression](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Learning/Logistic%20Regression/Logistic%20Regression.ipynb): Modeled ad-click likelihood using demographic and behaviour information with a logistic regression model. Implemented feature engineering (including cyclical temporal feature mapping), multicollinearity reduction, threshold optimization, and model performance testing.
-* [Predicting synthetic credit scores with linear regression](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Learning/Linear%20Regression/Linear%20Regression.ipynb): Modeled synthetic credit scores based on financial and demographic features using linear regression. Implemented feature engineering, correlation analysis, multicollinearity reduction, and statistical significance testing to evaluate feature importance and improve model interpretability.
+### Applied ML Projects
+End-to-end ML projects in Python including standard ML workflows with an emphasis on comparing multiple algorithms, evaluating tradeoffs, and model interpretability. 
+* Predicting Credit Card Approvals (In progress): Predict credit card application approvals based on anonymized data using logistic regression, KNN, and random forest models. Evaluated model performance tradeoffs and analyzed key drivers behind approval outcomes.
+
+### Core ML Algorithms
+Implementation of foundational ML algorithms in Python, including standard pre-processing, feature engineering, hyperparameter tuning, and model evaluation.
+* [Predicting Loan Defaults with Random Forest](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Core%20Algorithms/Random%20Forest/Random%20Forest.ipynb): Predict loan default likelihood based on financial data using a random forest model. Addressed class imbalance (16% default rate) with hyperparameter tuning (optimizing average precision), threshold optimization (optimizing F2-score), and SMOTE resampling.
+* [Classifying anonymized data with KNN](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Core%20Algorithms/KNN/KNN.ipynb): Classified anonymized data using a KNN model, highlighting the impact of feature scaling and k-value tuning on model performance.
+* [Predicting Ad Clicks with Logistic Regression](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Core%20Algorithms/Logistic%20Regression/Logistic%20Regression.ipynb): Modelled ad-click likelihood based on demographic and behaviour information using a logistic regression model. Implemented feature engineering (including cyclical temporal feature mapping), multicollinearity reduction, threshold optimization, and model performance testing.
+* [Predicting Synthetic Credit Scores with Linear Regression](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Core%20Algorithms/Linear%20Regression/Linear%20Regression.ipynb): Modelled synthetic credit scores based on financial and demographic features using a linear regression model. Implemented feature engineering, correlation analysis, multicollinearity reduction, and statistical significance testing to evaluate feature importance and improve model interpretability.
 
 
-## Reporting and Dashboards (SQL, Tableau, Excel)
-* [Insurance Analysis](https://github.com/astrosica/data-science-portfolio/tree/main/Reporting%20and%20Dashboards/Insurance%20Claims%20Analysis): Developed an interactive Tableau dashboard to report and analyze 70K insurance claims to support marketing and budget decisions.
-* [Marketing Analysis](https://github.com/astrosica/data-science-portfolio/tree/main/Reporting%20and%20Dashboards/e-Commerce%20Marketing%20Analysis): Analyzed 100K e-commerce sales records using SQL (Google BigQuery) and Excel to uncover trends in customer behaviour, reporting sales and marketing metrics using an interactive Tableau dashboard.
-* [TTC Delay Analysis](https://github.com/astrosica/data-science-portfolio/tree/main/Reporting%20and%20Dashboards/TTC%20Delay%20Analysis): Cleaned and analyzed 40K subway delay records for 2022-2023 using SQL and Tableau, assessing YoY KPIs and delay causes and providing performance improvement recommendations.
+## Data Visualization and Reporting
+Data analytics projects using SQL, Tableau, and Excel, focusing on data storytelling through dashboards and reports.
+* [Insurance Analysis](https://github.com/astrosica/data-science-portfolio/tree/main/Data%20Visualization%20and%20Reporting/Insurance%20Claims%20Analysis): Developed an interactive Tableau dashboard to report and analyze 70K insurance claims to support marketing and budget decisions.
+* [Marketing Analysis](https://github.com/astrosica/data-science-portfolio/tree/main/Data%20Visualization%20and%20Reporting/e-Commerce%20Marketing%20Analysis): Analyzed 100K e-commerce sales records using SQL (Google BigQuery) and Excel to uncover trends in customer behaviour, reporting sales and marketing metrics using an interactive Tableau dashboard.
+* [TTC Delay Analysis](https://github.com/astrosica/data-science-portfolio/tree/main/Data%20Visualization%20and%20Reporting/TTC%20Delay%20Analysis): Cleaned and analyzed 40K subway delay records for 2022-2023 using SQL and Tableau, assessing YoY KPIs and delay causes and providing performance improvement recommendations.
