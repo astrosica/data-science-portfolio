@@ -6,7 +6,7 @@ This repository contains my data science portfolio projects, implemented primari
 
 ### Applied ML Projects
 End-to-end ML projects in Python including standard ML workflows with an emphasis on comparing multiple algorithms, evaluating tradeoffs, and model interpretability. 
-* [Predicting Credit Card Approvals](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Applied%20Projects/Credit%20Card%20Application%20Prediction/Credit%20Card%20Approval.ipynb): Predict credit card application approvals based on anonymized data using logistic regression, KNN, and random forest models. Evaluated model performance tradeoffs and analyzed key drivers behind approval outcomes.
+* [Predicting Credit Card Approvals](https://github.com/astrosica/data-science-portfolio/blob/main/Machine%20Learning/Applied%20Projects/Credit%20Card%20Application%20Prediction/Credit%20Card%20Approval.ipynb): Predict credit card application approvals based on anonymized data using logistic regression, KNN, and random forest models. Compared model performance across three algorithms, applying feature scaling, categorical encoding, hyperparameter tuning, and threshold optimization to improve classification performance.
 
 ### Core ML Algorithms
 Implementation of foundational ML algorithms in Python, including standard pre-processing, feature engineering, hyperparameter tuning, and model evaluation.
